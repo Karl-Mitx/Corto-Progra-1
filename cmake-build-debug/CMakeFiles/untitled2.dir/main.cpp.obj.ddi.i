@@ -41493,12 +41493,11 @@ int main() {
 
     int randomNumber;
     int a;
+    srand(time(0));
     cin >> a;
-    randomNumber = (rand() % (100-1) + 1);
+    randomNumber = (rand() % (100 - 1)) + 1;
     cout << "El numero que usted tenia que adivinar era: " << randomNumber;
     cout << endl;
-
-
 
 
  return 0;
